@@ -16,13 +16,13 @@ class Tank:
             self.brand[brand] = n_gallons
     
     def summary(self):
-        print "Current state of gas tank is:\n"
+        print("Current state of gas tank is:\n")
         for key, value in sorted(self.brand.iteritems(), key=lambda x: x[1], reverse = True):
             if round(value,3) > 0:
-                print "%.3f gallons of '%s' gasoline" % (round(value,3), key)
+                print("{} gallons of '{}' gasoline".format((round(value,3), key)))
                 
     def return_state(self):
         l = []
-        for key, value in sorted(self.brand.iteritems(), key=lambda x: x[1], reverse = True):
+        for key, value in sorted(self.brand, key=lambda x: x[1], reverse = True):
             l.append((key, value/self.full))
         return l

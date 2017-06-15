@@ -5,3 +5,5 @@ Date,       Switch From,  Switch To,  Miles Driven, Total Miles,  Cost of Tires,
 2015-03-24, Winter1,      Stock1,     4308,         15750,        0,              45,             45
 2015-10-31, Stock1,       Winter1,   10029,         25779,        0,              45,             45
 2016-04-16, Winter1,      Stock1,     7004,         32783,        0,              55,             55
+2016-11-18, Stock1,       Winter1,    6617,         39400,        0,              60,             60
+2017-04-18, Winter1,      Stock1,     4281,         43681,        0,              50,             50
